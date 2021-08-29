@@ -1,0 +1,77 @@
+<!doctype html>
+<!--
+   File: profile.html
+   Author: ICT-4305 as-provided
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACME Shirts Profile Settings</title>
+    <link href="css/acme_styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <!-- ACME logo image -->
+        <img src="images/Acme_logo.png" alt="ACME Logo Image" />
+    </header>
+
+    <nav>                       <!-- navigation links -->
+        <ul>
+	         <li><a href="index.html">Home</a></li>
+	         <li><a href="products.html">Products</a></li>
+	         <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>                      <!-- content area of web page -->
+        <h1>Change Your ACME Shirts Profile</h1>
+        <h2>ACME Shirts We Know Style</h2>
+        <p>Change your profile colors for your background and your submit buttons.
+        The settings you choose here will be used for all forms in the ACME Shirts website until you change them again.
+        You can set up a new screen name, too.
+        </p>
+
+        <div id="formBox" class="regularBox">           <!-- registration form -->
+            <form id="profileForm" method="" action="">
+	             <p>
+		              <label for="screenName">NEW Screen Name:</label>
+		              <input id="screenName" name="screenName" type="text" />
+	             </p>
+		          <p>
+                          <!-- drop down list of color options -->
+                <label for="backgroundColor">NEW Background Color:</label>
+                <select id="backgroundColor">
+                    <option value="white">Default White</option>
+	                <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                </p>
+		          <p>
+                             <!-- drop down list of color options -->
+		          <label for="buttonColors">NEW Button Color:</label>
+                <select id="buttonColors">
+                    <option value="white">Default Antique White</option>
+	                <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                </p>
+		          <p>
+		              <input type="button" value="Submit" class="submit">
+	             </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>	                             <!-- footer content -->
+        <p>University of Denver University College</p>
+        <p>2021</p>
+    </footer>
+    <!-- script tags go here -->
+    <script src="./js/profileScript.js"></script>
+</body>
+</html>

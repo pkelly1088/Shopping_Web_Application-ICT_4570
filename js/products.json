@@ -1,0 +1,26 @@
+{
+    "Men":[
+        {
+            "style":"Short Sleeve Crewneck",
+            "size":["small", "medium", "large", "extra large"],
+            "colors":["red", "yellow", "blue", "green", "black", "white"]
+        },
+        {
+            "style":"Long Sleeve Crewneck",
+            "size":["small", "medium", "large", "extra large"],
+            "colors":["red", "yellow", "blue", "green", "black", "white"]
+        }   
+    ],
+    "Women":[
+        {
+            "style":"Short Sleeve Crewneck",
+            "size":["small", "medium", "large", "extra large"],
+            "colors":["red", "yellow", "blue", "green", "black", "white"]
+        },
+        {
+            "style":"Long Sleeve Crewneck",
+            "size":["small", "medium", "large", "extra large"],
+            "colors":["red", "yellow", "blue", "green", "black", "white"]
+        }
+    ]
+}
